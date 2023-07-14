@@ -17,7 +17,7 @@ class Game:
         self.y_pos_bg = 0
         self.player = Spaceship()
 
-    def run(self):
+    def run(self):  
         # Game loop: events - update - draw
         self.playing = True
         while self.playing:
